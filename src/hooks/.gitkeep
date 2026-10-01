@@ -1,0 +1,15 @@
+# Hooks Directory
+
+This directory contains custom React hooks.
+
+## Structure
+- useCart.ts - Shopping cart logic
+- useAuth.ts - Authentication logic
+- useProducts.ts - Product data fetching
+- Other custom hooks as needed
+
+## Guidelines
+- Prefix hooks with "use"
+- Keep hooks focused on single responsibility
+- Document hook usage with JSDoc
+- Handle errors and loading states

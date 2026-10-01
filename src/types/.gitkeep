@@ -1,0 +1,13 @@
+# Types Directory
+
+This directory contains TypeScript type definitions.
+
+## Structure
+- index.ts - Main type exports
+- models.ts - Database model types
+- api.ts - API request/response types
+
+## Guidelines
+- Use interfaces for object shapes
+- Use types for unions, primitives, and utility types
+- Export types from index.ts for easy imports

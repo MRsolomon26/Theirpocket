@@ -1,0 +1,16 @@
+# Components Directory
+
+This directory contains reusable React components.
+
+## Structure
+- ui/ - shadcn/ui or other UI library components
+- layout/ - Layout components (header, footer, navigation)
+- product/ - Product-related components
+- cart/ - Shopping cart components
+- admin/ - Admin dashboard components
+
+## Guidelines
+- Keep components small and focused
+- Use TypeScript for type safety
+- Prefer Server Components by default
+- Use Client Components only when interactivity is needed

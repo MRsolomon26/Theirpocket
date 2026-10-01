@@ -1,0 +1,14 @@
+# Public Directory
+
+This directory contains static assets served at the root URL.
+
+## Structure
+- images/ - Static images
+- favicon.ico - Website favicon
+- robots.txt - SEO robots file
+- sitemap.xml - SEO sitemap (generated dynamically)
+
+## Guidelines
+- Optimize images before adding
+- Use descriptive filenames
+- Keep file sizes small for performance

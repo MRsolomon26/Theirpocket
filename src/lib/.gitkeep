@@ -1,0 +1,14 @@
+# Lib Directory
+
+This directory contains utility functions and configurations.
+
+## Structure
+- db.ts - Database client (Prisma)
+- auth.ts - Authentication configuration (NextAuth.js)
+- validations.ts - Zod validation schemas
+- utils.ts - General utility functions
+
+## Guidelines
+- Keep functions pure where possible
+- Export named functions
+- Add JSDoc comments for complex functions

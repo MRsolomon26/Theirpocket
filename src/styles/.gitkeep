@@ -1,0 +1,13 @@
+# Styles Directory
+
+This directory contains additional style files.
+
+## Structure
+- Global styles are in src/app/globals.css
+- Component-specific styles can be added here if needed
+- CSS modules for components that require scoped styles
+
+## Guidelines
+- Prefer Tailwind utility classes
+- Use CSS modules only when necessary
+- Keep CSS organized and documented
