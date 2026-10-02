@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-    "db:seed": "tsx prisma/seed.ts"
+    "db:validate": "node scripts/with-env.mjs prisma validate",
+    "db:generate": "node scripts/with-env.mjs prisma generate",
+    "db:seed": "node scripts/with-env.mjs tsx prisma/seed.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
